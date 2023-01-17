@@ -23,7 +23,7 @@ jobs:
         file: ./Dockerfile
         platforms: linux/amd64
         push: true
-        tags: alexxxxx87/ALEX-USERBOT:buster
+        tags: alexxubot/alex-userbot:buster
         
     - name: send telegram message
       run: |
